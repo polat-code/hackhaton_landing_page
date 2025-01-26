@@ -5576,6 +5576,16 @@ figcaption {
 ._36 {
   height: 38px;
 }
+
+._12 {
+  height: 12px;
+}
+@media screen and (min-width: 992px) {
+  .community-intro-p {
+    margin-left: 10px;
+  }
+}
+
 .fintech-image {
   border-radius: 10px;
 }
