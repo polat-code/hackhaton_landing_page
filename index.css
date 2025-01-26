@@ -4117,6 +4117,19 @@ figcaption {
 .partner-logo {
   width: 100%;
 }
+.partner-logo img {
+  border-radius: 10px;
+}
+.text-center {
+  text-align: center;
+}
+.partner-logo-alignment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 991px) {
+}
 
 .img-partner {
   width: 100%;
