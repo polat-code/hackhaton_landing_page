@@ -2551,7 +2551,7 @@ figcaption {
 .section.dark-img-3 {
   background-color: var(--black);
   background-image: linear-gradient(#0003, #0003),
-    url("https://cdn.prod.website-files.com/613a12c30cca8a557cef2768/667a421d8c805827a444a805_accelerator-visual%20copy.webp");
+    url("./hackathon-konuları-background.webp");
   background-position: 0 0, 0 0;
   background-size: auto, auto;
 }
@@ -4096,7 +4096,7 @@ figcaption {
 
 .accordion-item {
   border-bottom: 1px solid var(--black);
-  background-image: url("https://cdn.prod.website-files.com/613a12c30cca8a557cef2768/662b2a3c1a2d80f0d8aa4d38_60644629639217c1f1ae5cee_accordion-closed.svg");
+  background-image: url("./accordion-plus.svg");
   background-position: 100% 0;
   background-repeat: no-repeat;
   background-size: auto;
@@ -4104,7 +4104,7 @@ figcaption {
 }
 
 .accordion-item.active {
-  background-image: url("https://cdn.prod.website-files.com/613a12c30cca8a557cef2768/662b2a3c97da13889da20647_60644628ab76701e23d9eb1e_accordion-opened.svg");
+  background-image: url("./accordion-minus.svg");
 }
 
 .accordion-heading {
@@ -4145,21 +4145,21 @@ figcaption {
 }
 
 .social-link.ig {
-  background-image: url("https://cdn.prod.website-files.com/613a12c30cca8a557cef2768/662b334e48b2f2289e7df70d_638ac7f45fd2fd055788eda5_icons8-instagram%201.svg");
+  background-image: url("./instagram-icon.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
 }
 
 .social-link.ln {
-  background-image: url("https://cdn.prod.website-files.com/613a12c30cca8a557cef2768/662b334e904aefc612970013_638ac7f4b9a23ce10fb6cb5f_icons8-linkedin_2%202.svg");
+  background-image: url("./linkedin-icon.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
 }
 
 .social-link.fb {
-  background-image: url("https://cdn.prod.website-files.com/613a12c30cca8a557cef2768/662b334ecbf67680b1278e10_61c2141914f751291ee48b07_Vector.svg");
+  background-image: url("./facebook-icon.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -4672,7 +4672,7 @@ figcaption {
   }
 
   .menu-button {
-    background-image: url("https://cdn.prod.website-files.com/613a12c30cca8a557cef2768/662e9581beab55128df4bd72_Frame%201981.svg");
+    background-image: url("./menu-button.svg");
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: auto;

@@ -8,15 +8,15 @@
 >
   <head>
     <meta charset="utf-8" />
-    <title>Techackaton</title>
+    <title>Teknoloji Hackathonu</title>
     <meta content="Techackaton" property="og:title" />
     <meta
-      content="https://cdn.prod.website-files.com/613a12c30cca8a557cef2768/667b78aa19e9bbbe5e6e40fd_Frame%201989%20copy.webp"
+      content="./meta_photo.png"
       property="og:image"
     />
     <meta content="Techackaton" property="twitter:title" />
     <meta
-      content="https://cdn.prod.website-files.com/613a12c30cca8a557cef2768/667b78aa19e9bbbe5e6e40fd_Frame%201989%20copy.webp"
+      content="./meta_photo.png"
       property="twitter:image"
     />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
@@ -51,15 +51,14 @@
             (n.className += t + "touch");
       })(window, document);
     </script>
-    <link
-      href="https://cdn.prod.website-files.com/613a12c30cca8a557cef2768/662eaca45929da68bfe6e67b_Group%201979.png"
-      rel="shortcut icon"
-      type="image/x-icon"
-    />
-    <link
-      href="https://cdn.prod.website-files.com/613a12c30cca8a557cef2768/662eaca8c91cc7a39fb43a3b_Group%201980.png"
-      rel="apple-touch-icon"
-    />
+    <!-- Favicon for most browsers -->
+    <link href="./meta-icon.png" rel="icon" type="image/png" />
+
+    <!-- Favicon for legacy browsers -->
+    <link href="./favicon.ico" rel="icon" type="image/x-icon" />
+
+    <!-- Apple Touch Icon for iOS and macOS -->
+    <link href="./meta-icon.png" rel="apple-touch-icon" type="image/png"/>
     <!-- Google Tag Manager -->
     <script>
       (function (w, d, s, l, i) {
@@ -127,47 +126,51 @@
     </div>
     <section class="section hero height-auto-on-mobile">
       <div
-        data-poster-url="https://cdn.prod.website-files.com/613a12c30cca8a557cef2768/66288db6f4435e10675b99c2_2168751_Light Leak_Overlay_Blue_1920x1080-2-poster-00001.jpg"
-        data-video-urls="https://cdn.prod.website-files.com/613a12c30cca8a557cef2768/66288db6f4435e10675b99c2_2168751_Light Leak_Overlay_Blue_1920x1080-2-transcode.mp4,https://cdn.prod.website-files.com/613a12c30cca8a557cef2768/66288db6f4435e10675b99c2_2168751_Light Leak_Overlay_Blue_1920x1080-2-transcode.webm"
+        data-poster-url="./data-poster.jpg"
+        data-video-urls="./background-image.mp4,webm-video.webm"
         data-autoplay="true"
         data-loop="true"
         data-wf-ignore="true"
         class="bg-video-hero w-background-video w-background-video-atom"
       >
-        <video
-          id="0678c42a-ee55-08a5-93ba-2e456178d84f-video"
-          autoplay=""
-          loop=""
-          style="
-            background-image: url('https://cdn.prod.website-files.com/613a12c30cca8a557cef2768/66288db6f4435e10675b99c2_2168751_Light Leak_Overlay_Blue_1920x1080-2-poster-00001.jpg');
-          "
-          muted=""
-          playsinline=""
-          data-wf-ignore="true"
-          data-object-fit="cover"
-        >
-          <source
-            src="https://cdn.prod.website-files.com/613a12c30cca8a557cef2768/66288db6f4435e10675b99c2_2168751_Light Leak_Overlay_Blue_1920x1080-2-transcode.mp4"
-            data-wf-ignore="true"
-          />
-          <source
-            src="https://cdn.prod.website-files.com/613a12c30cca8a557cef2768/66288db6f4435e10675b99c2_2168751_Light Leak_Overlay_Blue_1920x1080-2-transcode.webm"
-            data-wf-ignore="true"
-          />
-        </video>
+      <video
+      id="0678c42a-ee55-08a5-93ba-2e456178d84f-video"
+      autoplay
+      loop
+      muted
+      playsinline
+      style="
+        background-image: url('./background-image-intro.jpg');
+      "
+      data-wf-ignore="true"
+      data-object-fit="cover"
+    >
+      <source
+        src="./background-video.mp4"
+        type="video/mp4"
+        data-wf-ignore="true"
+      />
+      <source
+        src="webm-video.webm"
+        type="video/webm"
+        data-wf-ignore="true"
+      />
+    </video>
+
+    
       </div>
       <div class="direction-bg green inner-2"></div>
       <img
-        src="https://cdn.prod.website-files.com/613a12c30cca8a557cef2768/6633129cce838bdf5da72a4e_vis-03.png"
+        src="./vis-03.png"
         loading="lazy"
         data-w-id="86442eae-12cf-ffb9-736f-a1ca986096de"
         sizes="100vw"
         alt=""
         srcset="
-          https://cdn.prod.website-files.com/613a12c30cca8a557cef2768/6633129cce838bdf5da72a4e_vis-03-p-500.png   500w,
-          https://cdn.prod.website-files.com/613a12c30cca8a557cef2768/6633129cce838bdf5da72a4e_vis-03-p-800.png   800w,
-          https://cdn.prod.website-files.com/613a12c30cca8a557cef2768/6633129cce838bdf5da72a4e_vis-03-p-1080.png 1080w,
-          https://cdn.prod.website-files.com/613a12c30cca8a557cef2768/6633129cce838bdf5da72a4e_vis-03.png        1600w
+          ./vis-03-p-500.png   500w,
+          ./vis-03-p-800.png   800w,
+          ./vis-03-p-1080.png 1080w,
+          ./vis-03-2.png        1600w
         "
         class="bg-img-hero"
       />
@@ -813,7 +816,7 @@
       </div>
       <div class="spacer _150"></div>
     </section>
-    <section id="about" class="section overflow-hide z-index-1 hidden">
+    <section id="about2" class="section overflow-hide z-index-1 hidden">
       <img
         src="https://cdn.prod.website-files.com/613a12c30cca8a557cef2768/667a4215f5fbcd2efd926d5d_accelerator-visual-04%20copy.webp"
         loading="lazy"
