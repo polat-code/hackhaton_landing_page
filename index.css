@@ -3674,6 +3674,9 @@ figcaption {
 .spacer._150 {
   min-height: 150px;
 }
+.spacer._36 {
+  height: 36px;
+}
 
 .spacer.line {
   background-color: var(--black);
@@ -4128,7 +4131,17 @@ figcaption {
   justify-content: center;
   align-items: center;
 }
-@media screen and (max-width: 991px) {
+.google-maps-iframe {
+  width: 340px;
+  height: 400px;
+  border: 0;
+}
+@media screen and (min-width: 991px) {
+  .google-maps-iframe {
+    width: 900px;
+    height: 450px;
+    border: 0;
+  }
 }
 
 .img-partner {
@@ -5605,7 +5618,6 @@ figcaption {
 }
 
 .maintainable-world-img {
-  margin-top: 20px;
   border-radius: 10px;
 }
 .security-image {
