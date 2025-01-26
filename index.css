@@ -620,6 +620,12 @@ textarea.w-select {
 .activity-inline-block {
   display: inline-block;
 }
+.last-application-date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
 .hour-activity {
   font-size: 20px;
@@ -2372,6 +2378,93 @@ figcaption {
   line-height: 26px;
 }
 
+/* Sadece .awards-section içindeki stiller etkili olacak */
+/* Genel ödül bölümünü düzenleme */
+.awards-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  padding: 20px;
+}
+
+/* Ödül kutularının düzeni (Büyük ekran) */
+.award-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+/* Ödül kutusu tasarımı */
+.award {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  margin: 30px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  width: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Madalya resimleri */
+.award img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+/* Ödül sıralamaları için ölçeklendirme (Büyük ekran) */
+.award.first {
+  transform: scale(1.5);
+}
+
+.award.second {
+  transform: scale(1.2);
+  margin-right: 50px;
+}
+
+.award.third {
+  transform: scale(1);
+}
+
+/* --------------------- */
+/* 📌 RESPONSIVE TASARIM */
+/* --------------------- */
+@media (max-width: 600px) {
+  .award-container {
+    flex-direction: column; /* Küçük ekranda alt alta gelecek */
+    align-items: center;
+    justify-content: center;
+  }
+
+  .award {
+    width: 270px; /* Küçük ekranda genişlik ayarı */
+    transform: scale(1); /* Hepsi eşit boyutta */
+    margin: 10px 0; /* Üst ve alt boşluk */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .award img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+  }
+
+  .award.first,
+  .award.second,
+  .award.third {
+    transform: scale(1); /* Hepsi aynı boyutta olacak */
+    margin: 0; /* Eşit boşluklar */
+  }
+}
+
 .section {
   z-index: 1;
   position: relative;
@@ -3487,7 +3580,12 @@ figcaption {
   background-color: var(--white);
   color: var(--black);
 }
-
+.application-color {
+  background-color: var(--green);
+}
+.application-color:hover {
+  background-color: var(--black);
+}
 .grid-12 {
   grid-column-gap: 16px;
   grid-row-gap: 16px;
