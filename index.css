@@ -4158,8 +4158,8 @@ figcaption {
   background-size: auto;
 }
 
-.social-link.fb {
-  background-image: url("./facebook-icon.svg");
+.social-link.x {
+  background-image: url("./x.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -5577,9 +5577,23 @@ figcaption {
   height: 38px;
 }
 
+.sponsors-container {
+  display: flex;
+  flex-direction: row;
+}
 ._12 {
   height: 12px;
 }
+.activity-place {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.border-radius-10 {
+  border-radius: 10px;
+}
+
 @media screen and (min-width: 992px) {
   .community-intro-p {
     margin-left: 10px;
