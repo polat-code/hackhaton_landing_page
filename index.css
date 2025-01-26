@@ -5573,6 +5573,27 @@ figcaption {
     font-size: 16px;
   }
 }
+._36 {
+  height: 38px;
+}
+.fintech-image {
+  border-radius: 10px;
+}
+
+.maintainable-world-img {
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.security-image {
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.topics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 #w-node-ada7f687-25e7-cf64-534c-f8a8d2c79856-1eef276b,
 #w-node-_32dcfdfd-6c2c-5cef-9dbc-05c92c0cf3f4-1eef276b,
