@@ -3674,9 +3674,6 @@ figcaption {
 .spacer._150 {
   min-height: 150px;
 }
-.spacer._36 {
-  height: 36px;
-}
 
 .spacer.line {
   background-color: var(--black);
@@ -3807,7 +3804,7 @@ figcaption {
 }
 
 .p-16 {
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .p-16.white.light:hover {
@@ -3909,7 +3906,7 @@ figcaption {
   -webkit-backdrop-filter: blur(60px);
   backdrop-filter: blur(60px);
   background-color: #0003;
-  padding: 20px 60px 20px 20px;
+  padding: 20px;
   position: relative;
   overflow: hidden;
 }
@@ -4131,17 +4128,7 @@ figcaption {
   justify-content: center;
   align-items: center;
 }
-.google-maps-iframe {
-  width: 340px;
-  height: 400px;
-  border: 0;
-}
-@media screen and (min-width: 991px) {
-  .google-maps-iframe {
-    width: 900px;
-    height: 450px;
-    border: 0;
-  }
+@media screen and (max-width: 991px) {
 }
 
 .img-partner {
@@ -5613,11 +5600,18 @@ figcaption {
   }
 }
 
+.subject-image {
+  width: 100%;
+  border-radius: 10px;
+  height: auto;
+}
+
 .fintech-image {
   border-radius: 10px;
 }
 
 .maintainable-world-img {
+  margin-top: 20px;
   border-radius: 10px;
 }
 .security-image {
