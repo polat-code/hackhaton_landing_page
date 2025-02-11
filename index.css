@@ -555,6 +555,26 @@ button,
   padding: 10px;
   display: none;
 }
+.hidden-frame {
+  width: 100%;
+  max-width: 900px; /* Ensures it doesn't exceed its original width */
+  height: 450px;
+  border: 0;
+  border-radius: 10px;
+}
+
+/* Adjust height for smaller screens */
+@media (max-width: 768px) {
+  .hidden-frame {
+    height: 350px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hidden-frame {
+    height: 250px;
+  }
+}
 
 label {
   margin-bottom: 5px;
